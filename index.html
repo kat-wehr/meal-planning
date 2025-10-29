@@ -387,6 +387,12 @@
                 <h2 class="section-title">Recipe Library</h2>
                 <div class="recipe-form">
                     <div class="form-group">
+                        <label for="recipe-paste">Paste Recipe from Webpage</label>
+                        <textarea id="recipe-paste" placeholder="Paste entire recipe here (including title and ingredients)..." style="min-height: 120px;"></textarea>
+                        <button onclick="parseRecipe()" style="margin-top: 10px; width: 100%;">Parse Recipe</button>
+                    </div>
+                    <div style="text-align: center; margin: 15px 0; color: #6c757d; font-weight: 600;">OR</div>
+                    <div class="form-group">
                         <label for="recipe-name">Recipe Name</label>
                         <input type="text" id="recipe-name" placeholder="e.g., Spaghetti Bolognese">
                     </div>
